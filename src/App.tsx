@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useRef, useState } from "react"
-import { SampleWorker } from "./worker"
-import "./App.css"
+import { useCallback, useEffect, useRef, useState } from 'react'
+import { SampleWorker } from './worker'
+import './App.css'
 
 function App() {
   const a = useRef<HTMLInputElement>(null)
